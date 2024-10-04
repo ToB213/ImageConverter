@@ -14,11 +14,6 @@ Go で作成した画像変換ツールです．JPG と PNG フォーマット�
 
 まず，このリポジトリをクローンまたはダウンロードしてください．
 
-```bash
-git clone https://github.com/yourusername/go-image-converter.git
-cd go-image-converter
-```
-
 ### 2. 依存関係の取得
 
 プロジェクトに依存するパッケージは go.mod ファイルに記載されています．以下のコマンドでモジュールをダウンロードします．
