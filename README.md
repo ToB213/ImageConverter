@@ -38,7 +38,6 @@ go run .
 
 ```bash
 go build
-./go-image-converter
 ```
 
 ## 入力例
