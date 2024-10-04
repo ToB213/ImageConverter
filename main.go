@@ -1,7 +1,7 @@
 package main
 
 import (
-	"JpgToPng/mypkg"
+	"ImageConverter/mypkg"
 )
 
 func main() {
