@@ -46,7 +46,7 @@ go build
 ./go-image-converter
 ```
 
-### 入力例
+## 入力例
 
 実行中に画像ファイルのパスを入力すると，指定された画像のフォーマットが変換されます．
 
@@ -57,7 +57,7 @@ $ go run .
 PNGファイルを作成しました: ./sample.png
 ```
 
-### ディレクトリ構成
+## ディレクトリ構成
 
 ```bash
 .
@@ -68,20 +68,20 @@ PNGファイルを作成しました: ./sample.png
 │   └── input.go       # 入力処理とファイル確認機能
 ```
 
-### 関数説明
+## 関数説明
 
-#### Input() string
+### Input() string
 
-ユーザーから画像ファイルのパスを取得し，ファイルの存在確認と拡張子の検証を行います．
+- ユーザーから画像ファイルのパスを取得し，ファイルの存在確認と拡張子の検証を行います．
 
-#### LoadImage(imagePath string) GoImg
+### LoadImage(imagePath string) GoImg
 
-画像ファイルを読み込み，GoImg 構造体に格納します．
+- 画像ファイルを読み込み，GoImg 構造体に格納します．
 
-#### GoImg.ConvertToPNG(file string)
+### GoImg.ConvertToPNG(file string)
 
-読み込んだ画像を PNG 形式に変換して保存します．
+- 読み込んだ画像を PNG 形式に変換して保存します．
 
-#### GoImg.ConvertToJPG(file string)
+### GoImg.ConvertToJPG(file string)
 
-読み込んだ画像を JPG 形式に変換して保存します．
+- 読み込んだ画像を JPG 形式に変換して保存します．
